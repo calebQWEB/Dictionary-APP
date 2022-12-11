@@ -1,0 +1,80 @@
+.dic__meaning {
+    padding: 2rem;
+}
+
+.dic__input {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+
+    margin-bottom: 2rem;
+
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.search-button {
+    padding: 0.5rem 3rem;
+    width: 100%;
+    background-color: var(--background-color);
+
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--app-background);
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+.word-section h1 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.phonetic {
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.meaning-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.meaning {
+    font-size: 1rem;
+    font-weight: 500
+}
+
+
+@media screen and (max-width: 450px) {
+    .dic__input {
+        font-size: 1.125rem;
+        padding: 0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .search-button {
+        font-size: 0.7rem;
+    }
+
+    .word-section h1 {
+        font-size: 1.25rem;
+    }
+
+    .phonetic {
+        font-size: 1.125rem;
+    }
+
+    .meaning {
+        font-size: 0.9rem;
+    }
+
+    .error-message {
+        font-size: 0.9rem;
+    }
+}

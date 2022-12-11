@@ -1,0 +1,52 @@
+.lyric__home-page {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.dic__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 5rem;
+}
+
+.dic__header span {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.dic__button {
+    padding: 1rem 3rem;
+    width: 100%;
+    background-color: var(--background-color);
+
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--app-background);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 450px) {
+    .dic__header span {
+        font-size: 2.5rem;
+    }
+
+    .dic__button {
+        padding: 0.7rem 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .dic__header span {
+        font-size: 2rem;
+    }
+}
